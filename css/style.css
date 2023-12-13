@@ -165,38 +165,59 @@ header .download ul{
     display: flex;
 }
 
-.row > *{
-    border: 2px dashed black;
-    /* test */
-}
-
 .row .img{
-    background-color: #1E90FF;
-    height: 500px;
-    /* test */
-    
     flex-grow: 1;
-
 }
 
 .row .description{
-    background-color: #FFC0CB;
-    height: 500px;
-    /* test */
+    width: 250px;
+}
 
-    width: 480px;
+.title{
+    padding: 35px 0;
 
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.row .img.second{
+    display: flex;
+    justify-content: flex-end;
 }
 /* fine sections */
 
 
 /* quarta sezione */
 .big-content{
-    background-color: #228B22;
-    border: 2px dashed black;
-    height: 900px;
-    /* test */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.big-content .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-content .img{
+    display: flex;
+    justify-content: center;
+}
+
+.big-content .download-space{
+    text-align: center;
+}
+
+.big-content .download-space .title{
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.big-content .download-space .button-download{
+    background-color: #8EA1E1;
+    color: white;
 }
 /* fine quarta sezione */
 
