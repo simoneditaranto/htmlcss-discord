@@ -225,7 +225,6 @@ header .download ul{
 /* sezione footer */
 footer{
     background-color: #23272A;
-    /* test */
 }
 
 #top{
@@ -242,26 +241,18 @@ footer{
 }
 
 hr{
+    width: 70%;
+
+    margin: auto;
+
     border: 1px solid white;
 }
 
 #bot{
-    background-color: #7FFFD4;
-    border: 2px dashed black;
-    /* test */
-
     justify-content: space-between;
 
     padding: 20px 0;
     margin-top: 30px;
-}
-
-#bot .button{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
-    /* test */
-
-    padding: 5px;
 }
 
 .social .title{
@@ -297,9 +288,10 @@ ul li a{
     color: white;
 }
 
-
-
-
+#bot .button-download{
+    background-color: #8EA1E1;
+    color: white;
+}
 /* fine sezione footer */
 
 
