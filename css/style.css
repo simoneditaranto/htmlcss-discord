@@ -7,6 +7,12 @@
 
 
 /* proprietà in comune di tutta la pagina */
+nav{
+    background-color: #3161E0;
+
+    padding: 20px; 
+}
+
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -22,44 +28,67 @@ section{
     background-color: #D3D3D3;
     /* test */
 }
+/* fine proprietà in comune di tutta la pagina */
+
 
 /* sezione navbar */
-nav{
-    background-color: #ADD8E6;
-    /* test */
-
-    padding: 20px; 
-}
-
-nav .container > *{
-    border: 2px dashed black;
-    /* test */
-}
-
 nav .container{
-    background-color: #DAA520;
-    /* test */
-
     display: flex;
 }
 
-nav .container :first-child, nav .container :last-child{
+nav .container .logo{
+    /* per centrare il logo all'interno del suo contenitore */
+    display: flex;
+
     padding: 5px;
 
     width: 240px;
 }
 
+nav .container .logo img{
+    width: 100px;
+}
+
 nav .container .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
 
     padding: 5px;
+}
 
-    text-align: center;
+nav .navigation ul{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+    list-style-type: none;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+
+    color: white;
 }
 
 nav .container .login{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
 
-    text-align: right;
+    width: 240px;
+}
+
+nav .container .login a{
+    text-decoration: none;
+
+    padding: 8px 10px;
+
+    border-radius: 15px;
+
+    color: black;
+    background-color: white;
 }
 /* fine sezione navbar */
 
