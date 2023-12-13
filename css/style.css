@@ -229,24 +229,15 @@ footer{
 }
 
 #top{
-    padding-top: 10px;
+    padding-top: 50px;
     margin-bottom: 40px;
 }
 
 #top .big-column{
-    background-color: #F08080;
-    height: 575px;
-    /* test */
-
-    width: 350px;
+    width: 300px;
 }
 
 #top .small-column{
-    height: 575px;
-    background-color: #20B2AA;
-    border: 2px dashed white;
-    /* test */
-
     flex-grow: 1;
 }
 
@@ -272,6 +263,41 @@ hr{
 
     padding: 5px;
 }
+
+.social .title{
+    padding-top: 0;
+    padding-bottom: 20px;
+
+    color: #7188D9;
+}
+
+.social .language{
+    color: white;
+}
+
+.social .language img{
+    width: 20px;
+}
+
+.mini-title{
+    color: #7188D9;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    padding: 10px 0;
+}
+
+ul li a{
+    text-decoration: none;
+
+    color: white;
+}
+
+
 
 
 /* fine sezione footer */
